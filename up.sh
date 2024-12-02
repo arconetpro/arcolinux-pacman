@@ -34,7 +34,7 @@
 echo "Checking for newer files online first"
 git pull
 
-wget https://raw.githubusercontent.com/arconetpro/arconet-iso/refs/heads/main/archiso/airootfs/etc/pacman.conf -O pacman.conf
+wget https://raw.githubusercontent.com/arconetpro/arconet-iso/refs/heads/main/archiso/airootfs/etc/pacman.conf -O pacman-arcolinux.conf
 
 # Below command will backup everything inside the project folder
 git add --all .
